@@ -3,4 +3,4 @@ TARGETPATH = ~/.doom.d/themes/
 
 install:
 	mkdir -p $(TARGETPATH)
-	cp -uf $(SOURCEPATH)/*.el $(TARGETPATH)
+	cp $(SOURCEPATH)/*.el $(TARGETPATH)
